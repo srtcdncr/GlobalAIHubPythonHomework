@@ -18,7 +18,7 @@ kelime = kelimeler[random.randint(0, 7)]
 max_tahmin_hakki = int(len(kelime)/2)
 print(f"You have {max_tahmin_hakki} attempts. Guess the word. The words are planet names.")
 
-print(f"The word {fully_encrypted_word(kelime)}", kelime)
+print(f"The word {fully_encrypted_word(kelime)}")
 
 tahmin_hakki = 0
 tahminler = []
